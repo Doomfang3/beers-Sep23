@@ -1,3 +1,10 @@
-function BeerDetailsPage() {}
+import { useParams } from 'react-router-dom'
+import BeerDetails from '../components/BeerDetails'
 
-export default BeerDetailsPage;
+function BeerDetailsPage() {
+  const { beerId } = useParams()
+
+  return <BeerDetails beerId={beerId} />
+}
+
+export default BeerDetailsPage

@@ -1,3 +1,7 @@
-function RandomBeersPage() {}
+import BeerDetails from '../components/BeerDetails'
 
-export default RandomBeersPage;
+function RandomBeersPage() {
+  return <BeerDetails isRandom />
+}
+
+export default RandomBeersPage

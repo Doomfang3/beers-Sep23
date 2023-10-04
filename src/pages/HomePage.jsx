@@ -1,3 +1,7 @@
-function HomePage() {}
+import beers from '../assets/beers.png'
 
-export default HomePage;
+function HomePage() {
+  return <img src={beers} style={{ maxWidth: '100vw' }} />
+}
+
+export default HomePage
